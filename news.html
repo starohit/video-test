@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="news.css">
+    <title>Travel Landing Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel Nighteye</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="back1.mp4" muted loop autoplay></video> 
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>News</h2>
+            <p><a href="news1.html">Visiting Maldives again: Remember these Covid guidelines before planning a  trip</a></p>
+            <p><a href="news2.html">City Sightseeing relaunches Dubai tour service; 50% discount for residents</a></p>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://m.facebook.com/starohitduke"><img src="b.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/btwitsrohitsingh" target="_top"><img src="a.png" alt=""></a></li>
+            <li><a href="#" rel="not available" type="not available" ><img src="c.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.HTML">Home</a></li>
+            <br>
+            <li><a href="news.html">News</a></li>
+            <br>
+            <li><a href="destination.html">Destination</a></li>
+            <br>
+            <li><a href="https://starohit.blogspot.com/2021/07/maldives-social-distancing-creative.html">Blog</a></li>
+            <br>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active') 
+        })
+    </script>
+</body>
+</html>
